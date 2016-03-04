@@ -56,7 +56,7 @@ namespace clases
                     return age;
                 }
                 else {
-                    Console.WriteLine("Happy bDay :)");
+                    Console.WriteLine("Happy BirthDay :)");
                     return age;
                 }
             }
