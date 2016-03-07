@@ -10,8 +10,12 @@ namespace clases
     {
         static void Main(string[] args)
         {
-            EnterBithDayAndCalcAge();
+            //EnterBithDayAndCalcAge();
+            Estudiante est = new Estudiante();
+            est.EntrarAsignaturas();
+            est.ListarAsignaturas();      
         }
+     
         private static void EnterBithDayAndCalcAge() {
             Console.WriteLine("Enter bDate (mm/dd/yyyy):");
             string bDay = Console.ReadLine();
